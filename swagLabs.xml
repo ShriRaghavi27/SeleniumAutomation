@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="LoginTest">
+    <classes>
+      <class name="com.swagLabs.testCases.InventoryPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="InventoryTest">
+    <classes>
+      <class name="com.swagLabs.testCases.LoginPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="CartTest">
+    <classes>
+      <class name="com.swagLabs.testCases.CartPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+   <test thread-count="5" name="checkoutTest">
+    <classes>
+      <class name="com.swagLabs.testCases.CheckoutPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+   <test thread-count="5" name="OverviewTest">
+    <classes>
+      <class name="com.swagLabs.testCases.OverviewPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
